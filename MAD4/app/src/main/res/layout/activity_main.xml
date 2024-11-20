@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_light">
+
+    <!-- Title of the Activity -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Login"
+        android:textSize="24sp"
+        android:textColor="@color/text_color_primary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"/>
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:background="@drawable/custom_input_background"
+        android:padding="12dp"
+        android:textColor="@color/button_color"
+
+        android:textSize="18sp"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName"
+        android:maxLines="1"/>
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:background="@drawable/custom_input_background"
+        android:padding="12dp"
+        android:textColor="@color/button_color"
+
+        android:textSize="18sp"
+        android:layout_below="@id/editTextUsername"
+        android:layout_marginBottom="24dp"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+
+    <!-- Validate Button -->
+    <Button
+        android:id="@+id/buttonValidate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Validate"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:layout_below="@id/editTextPassword"/>
+
+    <!-- Designed by Text -->
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Harishvar"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"/>
+
+</RelativeLayout>

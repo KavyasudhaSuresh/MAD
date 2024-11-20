@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#001f3f"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvCreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Create Account"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="40dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvCreateAccount"
+        android:layout_marginTop="6dp"
+
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:hint="Name"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etName"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/white"
+            android:hint="Phone no"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:background="#FF3B30"
+        android:text="SIGN IN"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

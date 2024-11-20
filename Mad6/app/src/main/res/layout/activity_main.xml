@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to My App"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <!-- Speech to Text Button -->
+    <Button
+        android:id="@+id/btn_speech_to_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_text"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:background="@drawable/button_gradient"
+        android:text="Speech to Text"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:elevation="5dp"/>
+
+    <!-- Text to Speech Button -->
+    <Button
+        android:id="@+id/btn_text_to_speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_speech_to_text"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:background="@drawable/button_gradient"
+        android:text="Text to Speech"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:elevation="5dp"/>
+
+    <!-- Placeholder TextView for Results -->
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_text_to_speech"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:text="Result will appear here"
+        android:textSize="18sp"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

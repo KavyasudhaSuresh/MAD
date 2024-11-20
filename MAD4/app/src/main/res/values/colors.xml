@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_light">#00BCD4</color>
+    <color name="input_background">#FFFFFF</color>
+    <color name="input_border_color">#9C27B0</color>
+    <color name="text_color_primary">#FFFFFF</color>
+    <color name="text_color_secondary">#020304</color>
+    <color name="hint_color">#9E9E9E</color>
+    <color name="button_color">#0D0C0D</color>
+    <color name="white">#FFFFFF</color>
+</resources>
